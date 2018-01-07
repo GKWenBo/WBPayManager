@@ -36,7 +36,7 @@
 		8434CAD71FFDDA7400B33357 /* APAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434CAD51FFDDA7400B33357 /* APAuthInfo.m */; };
 		8434CAD91FFE076E00B33357 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434CAD81FFE076E00B33357 /* libsqlite3.0.tbd */; };
 		8434CADB1FFE078600B33357 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434CADA1FFE078600B33357 /* Security.framework */; };
-		8434CADE1FFE0E5A00B33357 /* WBPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434CADD1FFE0E5A00B33357 /* WBPayManager.m */; };
+		C2F2C700200234000067B646 /* WBPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F2C6FF200234000067B646 /* WBPayManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,8 +155,8 @@
 		8434CAD51FFDDA7400B33357 /* APAuthInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAuthInfo.m; sourceTree = "<group>"; };
 		8434CAD81FFE076E00B33357 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		8434CADA1FFE078600B33357 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		8434CADC1FFE0E5A00B33357 /* WBPayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBPayManager.h; sourceTree = "<group>"; };
-		8434CADD1FFE0E5A00B33357 /* WBPayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBPayManager.m; sourceTree = "<group>"; };
+		C2F2C6FE200234000067B646 /* WBPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPayManager.h; sourceTree = "<group>"; };
+		C2F2C6FF200234000067B646 /* WBPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPayManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,14 +207,13 @@
 		8434CA401FFDC58F00B33357 /* WBPayManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C2F2C6FD200234000067B646 /* WBPayManager */,
 				8434CA581FFDC97800B33357 /* WechatSDK1.8.2 */,
 				8434CA571FFDC7E200B33357 /* AliSDK_V15.5.0 */,
 				8434CA411FFDC58F00B33357 /* AppDelegate.h */,
 				8434CA421FFDC58F00B33357 /* AppDelegate.m */,
 				8434CA441FFDC58F00B33357 /* ViewController.h */,
 				8434CA451FFDC58F00B33357 /* ViewController.m */,
-				8434CADC1FFE0E5A00B33357 /* WBPayManager.h */,
-				8434CADD1FFE0E5A00B33357 /* WBPayManager.m */,
 				8434CA471FFDC58F00B33357 /* Main.storyboard */,
 				8434CA4A1FFDC58F00B33357 /* Assets.xcassets */,
 				8434CA4C1FFDC58F00B33357 /* LaunchScreen.storyboard */,
@@ -366,6 +365,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		C2F2C6FD200234000067B646 /* WBPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				C2F2C6FE200234000067B646 /* WBPayManager.h */,
+				C2F2C6FF200234000067B646 /* WBPayManager.m */,
+			);
+			path = WBPayManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -446,7 +454,7 @@
 				8434CA431FFDC58F00B33357 /* AppDelegate.m in Sources */,
 				8434CAD01FFDD66B00B33357 /* APRSASigner.m in Sources */,
 				8434CAD61FFDDA7400B33357 /* APOrderInfo.m in Sources */,
-				8434CADE1FFE0E5A00B33357 /* WBPayManager.m in Sources */,
+				C2F2C700200234000067B646 /* WBPayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
